@@ -22,9 +22,29 @@
   --text: 1.6rem/150% var(--font-family);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
 body {
   background-color: var(--bg-color);
 
   color: var(--text-color-secondary);
   font: var(--text);
+}
+
+.container {
+  padding-inline: 3.2rem;
+  max-width: 128rem;
+  margin-inline: auto;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
 }

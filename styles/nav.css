@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 2rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  padding-block: .8rem;
+}
+
